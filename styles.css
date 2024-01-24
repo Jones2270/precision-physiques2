@@ -139,13 +139,14 @@ h2 {
     text-align: left;
     max-width: 800px;
     margin: auto;
+    padding-bottom: 10px;
 }
 
 .feature {
     display: flex;
     align-items: left;
     justify-content: left;
-    margin: 20px;
+    margin: 20px 20px 30px 20px;
     font-family: 'quicksand';
     color: var(--button-text);
 }
@@ -165,15 +166,15 @@ h2 {
 }
 
 .product1 {
-    background-image: url(https://www.classicdriver.com/sites/default/files/cars_images/54694/SA-0012069/6a4e14b32b6adde9263336bad83944db.jpeg);
+    background-image: url(/images/Package-1.jpg);
 }
 
 .product2 {
-    background-image: url(https://images1.bonhams.com/image?src=Images/live/2014-04/04/8965295-1-23.jpg);
+    background-image: url(/images/Package-2.jpg);
 }
 
 .product3 {
-    background-image: url(https://assets.carandclassic.com/listing-assets/vauxhall/astra-gte/1983-vauxhall-astra-gte-nRNjKn-v2/7mF9soQY2EaM0idPfsgSDjJRMUTvaKta99pLDCmL.jpg?ar=16%3A9&auto=compress&fit=crop&h=450&ixlib=php-4.1.0&q=75&w=800&s=253e2fbe63704b6f5a332437485430b4);
+    background-image: url(/images/Package-3.jpg);
 }
 
 .card {
@@ -208,7 +209,7 @@ h2 {
     margin-right: 20px;
     font-size: 30px;
     font-family: 'Courier New';
-    color: var(--button);
+    color: var(--header1-h1);
 }
 
 .old-price {
@@ -229,7 +230,7 @@ h2 {
 }
 
 .add {
-    background-color: var(--button);
+    background-color: var(--header1-h1);
     cursor: pointer;
     padding: 15px;
     border: none;
@@ -239,6 +240,53 @@ h2 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
     margin-bottom: 10px;
+}
+
+#contact {
+    background-color: var(--neutral);
+    color: var(--base-100);
+}
+
+#contact h1 {
+    margin-top: 300px;
+}
+
+#contact .coffee-question {
+    color: var(--primary);
+    font-size: 25px;
+    font-style: italic;
+}
+
+#contact .social-medias {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#contact .social-media {
+    text-decoration: none;
+    color: var(--seconday-header);
+    transition: transform 0.2s ease-in;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-size: 22px;
+    font-family: "quicksand";
+}
+
+#contact .social-media:hover {
+    transform: translateY(10px);
+}
+
+footer {
+    border-top: 3px solid var(--fonts);
+    color: var(--header1-h1);
+    font-family: "quicksand";
+    font-size: 25px;
+    padding: 30px;
 }
 
 @media only screen and (min-width: 600px) {
