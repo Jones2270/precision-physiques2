@@ -12,7 +12,8 @@
     --seconday: #f25f4c;
     --fonts: rgb(100, 245, 233);
     --seconday-header: rgb(56, 49, 222);
-    --header1-h1: cadetblue;
+    --header2-h2: cadetblue;
+    --header1-h1: #57d6c2;
 
 }
 
@@ -107,7 +108,7 @@ h1 {
 h2 {
     font-family: 'Roboto Mono';
     margin-bottom: 10px;
-    color: var(--fonts);
+    color: var(--header2-h2);
 }
 
 .large-logo {
@@ -255,11 +256,13 @@ h2 {
     margin-bottom: 10px;
 }
 
-.experience-text {
+
+/*.experience-text {
     font-family: "quicksand";
     font-weight: bold;
     font-size: 30px;
 }
+*/
 
 .experience-image {
     width: 100%;
