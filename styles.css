@@ -248,9 +248,31 @@ h2 {
 }
 
 .experience {
-    font-family: 'Courier New';
-    color: var(--text);
+    background-color: var(--background);
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
     margin-bottom: 10px;
+}
+
+.experience-text {
+    font-family: "quicksand";
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.experience-image {
+    width: 100%;
+    margin: auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid var(--text);
+    border-radius: 10px 10px 0 0; 
+}
+
+.awards-image {
+    background-image: url(/images/Gym_of_the_year.webp);
 }
 
 #contact {
