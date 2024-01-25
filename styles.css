@@ -155,6 +155,11 @@ h2 {
     width: 70%;
 }
 
+#coaching_packages{
+    font-family: "quicksand";
+    color: var(--button-text);
+}
+
 .product-image {
     width: 100%;
     margin: auto;
@@ -242,19 +247,26 @@ h2 {
     margin-bottom: 10px;
 }
 
+.experience {
+    font-family: 'Courier New';
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
 #contact {
-    background-color: var(--neutral);
-    color: var(--base-100);
+    color: var(--button-text);
+    font-family: "quicksand";
 }
 
 #contact h1 {
-    margin-top: 300px;
+    margin-top: 30px;
 }
 
-#contact .coffee-question {
+#contact .quote {
     color: var(--primary);
     font-size: 25px;
     font-style: italic;
+    color: var(--button-text);
 }
 
 #contact .social-medias {
