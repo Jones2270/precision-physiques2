@@ -56,6 +56,10 @@ body {
     font-family: "Roboto Mono";
 }
 
+.nav-links :hover {
+    color: var(--header1-h1);
+}
+
 .logo-container {
     display: flex;
     align-items: center;
