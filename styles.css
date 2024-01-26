@@ -247,9 +247,10 @@ h2 {
     border: none;
     border-radius: 10px;
     width: 100%;
-    color: var(--white);
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 700;
+    color: var(--text);
+    font-family: "quicksand";
+    font-weight: 800;
+    font-size: 15px;
     margin-bottom: 10px;
 }
 
