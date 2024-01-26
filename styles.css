@@ -14,6 +14,7 @@
     --seconday-header: rgb(56, 49, 222);
     --header2-h2: cadetblue;
     --header1-h1: #57d6c2;
+    --socialmedia: rgb(11, 146, 213);
 
 }
 
@@ -305,7 +306,7 @@ h2 {
 
 #contact .social-media {
     text-decoration: none;
-    color: var(--seconday-header);
+    color: var(--white);
     transition: transform 0.2s ease-in;
     display: flex;
     align-items: center;
@@ -316,6 +317,7 @@ h2 {
 
 #contact .social-media:hover {
     transform: translateY(10px);
+    color: var(--socialmedia);
 }
 
 footer {
