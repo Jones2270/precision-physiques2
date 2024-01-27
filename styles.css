@@ -136,6 +136,10 @@ h2 {
     padding: 0px 20px 0px 20px;
 }
 
+.about {
+    margin: 20px 20px 30px 20px;
+}
+
 .icon {
     color: var(--fonts);
     margin-right: 20px;
@@ -164,6 +168,10 @@ h2 {
 #coaching_packages{
     font-family: "quicksand";
     color: var(--button-text);
+}
+
+.coaching_packages {
+    margin: 10px 30px 10px 30px;
 }
 
 .product-image {
