@@ -262,12 +262,53 @@ h2 {
     margin-bottom: 10px;
 }
 
+#testimonials {
+    margin: 60px 0 20px 0;
+}
+
+.sub-title {
+    font-family: "quicksand";
+    color: var(--text);
+    margin-bottom: 20px;
+}
+
+.testimonial-card {
+    /*background-color: var(--background);*/
+    border-radius: 10px;
+    width: 45%;
+    margin: auto;
+    margin-bottom: 10px;
+    min-height: 250px;
+}
+
+.testimonial-inner-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.quote-icon {
+    color: var(--button-text);
+}
+
+.review {
+    font-family: "quicksand";
+    color: var(--button-text);
+    margin-bottom: 20px;
+}
+
+.reviewer {
+    color: var(--button-text);
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .experience {
     background-color: var(--background);
     border-radius: 10px;
     width: 100%;
     margin: auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 
