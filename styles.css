@@ -262,6 +262,15 @@ h2 {
     margin-bottom: 10px;
 }
 
+.add:hover {
+    background-color: var(--socialmedia);
+}
+
+.add:active {
+    background-color: var(--socialmedia);
+    transform: translateY(4px);
+}
+
 #testimonials {
     margin: 60px 0 20px 0;
 }
@@ -370,8 +379,12 @@ h2 {
 }
 
 #contact .social-media:hover {
-    transform: translateY(10px);
+   
     color: var(--socialmedia);
+}
+
+#contact .social-media:active {
+    transform: translateY(5px);
 }
 
 footer {
