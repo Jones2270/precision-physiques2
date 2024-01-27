@@ -31,7 +31,7 @@ body {
     width: 60px;
     object-fit: contain;
 }
-
+/*Navigation*/
 #nav-bar {
     display: flex;
     flex-direction: column;
@@ -139,7 +139,7 @@ h2 {
 }
 
 #about {
-    background-image: url(/images/background-1.jpg);
+    background-image: url(images/background-1.jpg);
     background-size: cover;
     font-family: "quicksand";
     color: var(--button-text);
@@ -197,15 +197,15 @@ h2 {
 }
 
 .product1 {
-    background-image: url(/images/Package-1.jpg);
+    background-image: url(images/Package-1.jpg);
 }
 
 .product2 {
-    background-image: url(/images/Package-2.jpg);
+    background-image: url(images/Package-2.jpg);
 }
 
 .product3 {
-    background-image: url(/images/Package-3.jpg);
+    background-image: url(images/Package-3.jpg);
 }
 
 .card {
@@ -351,7 +351,7 @@ h2 {
 }
 
 .awards-image {
-    background-image: url(/images/Gym_of_the_year.webp);
+    background-image: url(images/Gym_of_the_year.webp);
 }
 
 #contact {
