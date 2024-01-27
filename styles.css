@@ -116,6 +116,18 @@ h2 {
     color: var(--header2-h2);
 }
 
+#small-contact {
+    color: var(--text);
+    font-family: "quicksand";
+}
+
+.small-contact {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 .large-logo {
     border-radius: 50%;
     align-items: center;
@@ -123,7 +135,7 @@ h2 {
     width: 130px;
     height: 130px;
     border: 5px solid var(--text);
-    margin-top: 50px;
+    margin-top: 5px;
 }
 
 #about {
