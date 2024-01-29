@@ -399,11 +399,17 @@ h2 {
     transform: translateY(5px);
 }
 
+#email-telephone {
+    font-family: "quicksand";
+    color: var(--button-text);
+    font-size: larger;
+}
+
 footer {
     border-top: 3px solid var(--fonts);
     color: var(--header1-h1);
     font-family: "quicksand";
-    font-size: 25px;
+    font-size: 15px;
     padding: 30px;
 }
 
