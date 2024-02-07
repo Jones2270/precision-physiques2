@@ -233,11 +233,12 @@ h2 {
 .flex {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: 10px;
 }
 
 .main-price {
-    margin-right: 20px;
+    margin-right: 5px;
     font-size: 30px;
     font-family: 'Courier New';
     color: var(--header1-h1);
