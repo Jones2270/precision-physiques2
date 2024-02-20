@@ -339,8 +339,8 @@ h2 {
 
   .gallery img {
     width: 100%;
-    max-width: 290px;
-    height: 200px;
+    max-width: 295px;
+    height: 195px;
     object-fit: cover;
     border-radius: 10px;
   }
