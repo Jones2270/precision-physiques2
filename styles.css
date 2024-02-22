@@ -152,6 +152,16 @@ h2 {
     margin: 20px 20px 30px 20px;
 }
 
+.video {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    object-fit: scale-down;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
 .icon {
     color: var(--fonts);
     margin-right: 20px;
