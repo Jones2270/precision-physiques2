@@ -162,6 +162,10 @@ h2 {
     padding-bottom: 10px;
 }
 
+.portrait {
+    margin-bottom: 30px;
+}
+
 .icon {
     color: var(--fonts);
     margin-right: 20px;
@@ -359,6 +363,31 @@ h2 {
     content: "";
     width: 350px;
   }*/
+
+.testimonial-videos {
+    margin-bottom: 30px;
+}
+
+.testimonial-videos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    object-fit: scale-down;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.testimonial-video{
+    height: 400px;
+    width: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
 
 .experience {
     background-color: var(--background);
