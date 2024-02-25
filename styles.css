@@ -352,6 +352,14 @@ h3 {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.kody-review {
+    font-family: "quicksand";
+    font-weight: 300;
+    font-size: 20;
+    color: var(--button-text);
+    margin-bottom: 5px;
+}
+
 .gallery {
     display: flex;
     flex-direction: row;
@@ -364,13 +372,22 @@ h3 {
     padding: 20px 10px;
   }
 
-  .gallery img {
+.gallery img {
     width: 100%;
     max-width: 295px;
     height: 195px;
     object-fit: cover;
     border-radius: 10px;
-  }
+}
+
+.kody-gallery img {
+    width: 100%;
+    max-width: 295px;
+    height: 295px;
+    object-fit: cover;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    }
   
   /*.gallery::after {
     content: "";
